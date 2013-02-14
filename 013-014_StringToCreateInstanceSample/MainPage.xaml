@@ -1,0 +1,15 @@
+﻿<Page
+    x:Class="StringToCreateInstanceSample.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:StringToCreateInstanceSample"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <Button Content="コンストラクタ引数無しでインスタンスを生成してメソッドを実行" HorizontalAlignment="Left" Margin="78,66,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
+        <Button Content="コンストラクタ引数有りでインスタンスを生成してメソッドを実行" HorizontalAlignment="Left" Margin="78,120,0,0" VerticalAlignment="Top" Click="Button_Click_2"/>
+
+    </Grid>
+</Page>

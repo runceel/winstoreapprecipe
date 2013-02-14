@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="SavePasswordSample.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SavePasswordSample"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <Button Content="平文でパスワードを保存する" HorizontalAlignment="Left" Margin="65,61,0,0" VerticalAlignment="Top" Height="67" Width="253" Click="Button_Click_1"/>
+        <Button Content="暗号化してパスワードを保存する" HorizontalAlignment="Left" Margin="65,269,0,0" VerticalAlignment="Top" Height="67" Width="253" Click="Button_Click_2"/>
+        <Button Content="ロードする" HorizontalAlignment="Left" Margin="65,133,0,0" VerticalAlignment="Top" Height="67" Width="253" Click="Button_Click_3"/>
+        <Button Content="ロードする" HorizontalAlignment="Left" Margin="65,341,0,0" VerticalAlignment="Top" Height="67" Width="253" Click="Button_Click_4"/>
+
+    </Grid>
+</Page>
